@@ -5,7 +5,7 @@ pipeline {
         GOOGLE_APPLICATION_CREDENTIALS = credentials('gcp-service-account') // Ensure service account JSON is available
         GKE_CLUSTER_NAME = 'contoso-app-prod' // Update with your GKE cluster name
         GKE_PROJECT_ID = 'swiggy-project-453308' // Update with your GCP project ID
-        GKE_ZONE = 'us-central1' // Update with your GKE cluster zone
+        GKE_ZONE = 'us-central1-a' // Update with your GKE cluster zone
         GIT_REPO_URL = 'https://github.com/Divya555555/kub-jenkin.git' // Update with your Git repository URL
         GIT_BRANCH = 'main' // Update with your branch name if needed (default is 'main')
     }
